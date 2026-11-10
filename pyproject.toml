@@ -1,0 +1,27 @@
+[project]
+name = "rag-crash-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Siddhant Sancheti", email = "siddhantsanchetik@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "langchain>=1.4.9",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.7.6",
+    "langchain-google-genai>=4.4.3",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.7.4",
+    "pymupdf>=2.1",
+    "pypdf>=7.0.0",
+]
+
+[project.scripts]
+rag-crash-course = "rag_crash_course:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"

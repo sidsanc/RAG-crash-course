@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-ollama
+langchain-google-genai
+langchain-google-genai
+pypdf
+pymupdf

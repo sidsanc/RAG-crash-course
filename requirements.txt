@@ -7,3 +7,6 @@ langchain-google-genai
 langchain-google-genai
 pypdf
 pymupdf
+faiss-cpu
+chromadb
+sentence-transformers

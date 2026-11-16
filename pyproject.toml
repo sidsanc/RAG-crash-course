@@ -28,6 +28,7 @@ rag-crash-course = "rag_crash_course:main"
 
 [tool.pyrefly]
 python-interpreter-path = ".venv/Scripts/python.exe"
+search-path = ["."]
 
 [build-system]
 requires = ["uv_build>=0.12.0,<0.13.0"]

@@ -15,6 +15,7 @@ dependencies = [
     "langchain-community>=0.4.2",
     "langchain-core>=1.7.6",
     "langchain-google-genai>=4.4.3",
+    "langchain-groq>=1.2.0",
     "langchain-ollama>=1.1.0",
     "langchain-openai>=1.7.4",
     "pymupdf>=2.1",
